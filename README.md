@@ -11,4 +11,4 @@ Current design goals neccesitate three distictive pieces of software, any of whi
 
 # References
 
-1. Placeholder
+1. https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf
