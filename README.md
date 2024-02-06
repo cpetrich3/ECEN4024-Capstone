@@ -4,11 +4,13 @@ This repo contains all software related to the development of our 4-DOF motion p
 
 Current design goals neccesitate three distictive pieces of software, any of which that aren't available already as open-source solutions will need to be developed and documented here. These three software solutions consist of:
 
-- A GUI interface for a user to interact with our motion platform, in the form of either inputing manual positioning, or uploading pre-computed motion data derived from wave spectrum data.
-- A ocean wave simulator capable of deriving motion data in the form of an elevation and normal vector from the surface of a plane being modulated by a parameterized spectrum equation using the technique found in [[Ref. 1]](#references)
+1. A GUI interface for a user to interact with our motion platform, in the form of either inputing manual positioning, or uploading pre-computed motion data derived from wave spectrum data.
+2. An ocean wave simulator capable of deriving motion data in the form of an elevation and normal vector from the surface of a plane being modulated by a parameterized spectrum equation using the technique found in [[Ref. 1]](#references).
+3. An inverse kinematic solver capable of solving the inverse kinematic equations that govern the motion of our platform using the data from the wave simulator as its input.
 
 ---
 
 # References
 
 1. https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf
+2. ... Expand as needed
