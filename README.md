@@ -10,7 +10,10 @@ Current design goals neccesitate three distictive pieces of software, any of whi
 
 ---
 
-# References
+# References (So far)
 
 1. https://people.computing.clemson.edu/~jtessen/reports/papers_files/coursenotes2004.pdf
-2. ... Expand as needed
+2. https://github.com/GarrettGunnell/Water/tree/main
+3. https://wikiwaves.org/Ocean-Wave_Spectra
+4. https://gpuopen.com/gdc-presentations/2019/gdc-2019-agtd6-interactive-water-simulation-in-atlas.pdf
+5. https://github.com/iamyoukou/fftWater
