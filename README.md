@@ -1,12 +1,10 @@
 # ECEN4024 Capstone Project
 
-This repo contains all software related to the development of our 4-DOF motion platform ocean simulator capstone project, sponsored by Lawrence Livermore National Laboratory in conjunction with Oklahoma State University.
+This repo contains all software related to the development of our 1-DOF motion platform ocean simulator capstone project, sponsored by Lawrence Livermore National Laboratory in conjunction with Oklahoma State University.
 
-Current design goals neccesitate three distictive pieces of software, any of which that aren't available already as open-source solutions will need to be developed and documented here. These three software solutions consist of:
-
-1. A GUI interface for a user to interact with our motion platform, in the form of either inputing manual positioning, or uploading pre-computed motion data derived from wave spectrum data.
-2. An ocean wave simulator capable of deriving motion data in the form of an elevation and normal vector from the surface of a plane being modulated by a parameterized spectrum equation using the technique found in [[Ref. 1]](#references).
-3. An inverse kinematic solver capable of solving the inverse kinematic equations that govern the motion of our platform using the data from the wave simulator as its input.
+1. A GUI interface for a user to interact with our motion platform, in the form of either inputing manual positioning, or uploading pre-computed motion data.
+2. An intermediate program that will divide the heave motion between our platform and the pre-build hexapod.
+3. (Potentially) An ocean wave simulator capable of deriving motion data in the form of an elevation and normal vector from the surface of a plane being modulated by a parameterized spectrum equation using the technique found in [[Ref. 1]](#references).
 
 ---
 
