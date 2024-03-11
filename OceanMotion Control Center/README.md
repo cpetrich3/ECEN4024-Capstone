@@ -1,3 +1,3 @@
 Build instructions:
-cd %PROJECT_PATH%
-dotnet build
+cd %root_folder%
+dotnet build ".\OceanMotion Control Center"
