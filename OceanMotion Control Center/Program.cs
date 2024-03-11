@@ -1,6 +1,6 @@
 ﻿namespace OceanMotion;
 
-static class Program
+public static class Program
 {
     static void Main(String[] args) {
         
