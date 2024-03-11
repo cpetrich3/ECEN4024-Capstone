@@ -14,4 +14,3 @@ Insert info from CDR here after finished.
 1. https://www.mono-project.com/
 2. https://www.omc-stepperonline.com/t6-series-1000w-ac-servo-motor-kit-3000rpm-3-19nm-w-brake-17-bit-encoder-ip65-t6-rs1000h2b3-m17s
 3. https://github.com/OfItselfSo/BBBCSIO?tab=readme-ov-file
-test
