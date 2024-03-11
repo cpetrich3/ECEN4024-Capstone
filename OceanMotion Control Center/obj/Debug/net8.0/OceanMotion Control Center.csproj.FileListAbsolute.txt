@@ -1,0 +1,15 @@
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\bin\Debug\net8.0\OceanMotion Control Center.exe
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\bin\Debug\net8.0\OceanMotion Control Center.deps.json
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\bin\Debug\net8.0\OceanMotion Control Center.runtimeconfig.json
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\bin\Debug\net8.0\OceanMotion Control Center.dll
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\bin\Debug\net8.0\OceanMotion Control Center.pdb
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.GeneratedMSBuildEditorConfig.editorconfig
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.AssemblyInfoInputs.cache
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.AssemblyInfo.cs
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.csproj.CoreCompileInputs.cache
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.sourcelink.json
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.dll
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\refint\OceanMotion Control Center.dll
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.pdb
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\OceanMotion Control Center.genruntimeconfig.cache
+C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\obj\Debug\net8.0\ref\OceanMotion Control Center.dll
