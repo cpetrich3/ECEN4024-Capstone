@@ -14,28 +14,31 @@ public class FileHandler {
     }
 
     private int ReadFile(String path, ValidationParameters valParams) {
-        String[] line1;
-        String[] line2;
+        String line1;
+        String line2;
         int stopCode = 1;
         try {
             // REFACTOR***
             sr = new StreamReader(path);
-            line1 = sr.ReadLine().Split('\t');
-            line2 = sr.ReadLine().Split('\t');
+            line1 = sr.ReadLine();
+            line2 = sr.ReadLine();
             double time;
             if (line1.Length != 7 || line1.Length != 2) { // Catches if the file isn't in the proper format. Either 7 (time + 6-dof) or 2 (time + heave) columns.
                 // Return err# for improper data file format
                 return -3;
-            } else if (!double.TryParse(line1[0],out time) && double.TryParse(line2[0],out time)) { // Catches if the file has headers and corrects for it.
+            } else if (!double.TryParse(line1.Split()[0],out time) && double.TryParse(line2.Split()[0],out time)) { // Catches if the file has headers and corrects for it.
                 line1 = line2; // Increments line1 without further parsing. Line2 will be incremented automatically by the loop.
-                line2 = sr.ReadLine().Split('\t');
+                line2 = sr.ReadLine();
+            } else {
+                sr.DiscardBufferedData(); // send sr back to begining of stream.
             }
             
-            while ((line2 = sr.ReadLine()) != null && stopCode == 1) {
+            while (line2 != null && stopCode == 1) {
                 stopCode = Validate(line1.Split('\t'), line2.Split('\t'), valParams); // Will read file lines until completion, or a line occurs that defies the maximums set.
                 line1 = line2;
                 line2 = sr.ReadLine();
             }
+            sr.Close();
         }
         catch(FileNotFoundException e) {
             // Log & display error
