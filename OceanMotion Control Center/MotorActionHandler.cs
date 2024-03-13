@@ -1,5 +1,5 @@
 namespace OceanMotion;
 
-public class MotorActionHandler() {
+public class MotorActionHandler {
     
 }

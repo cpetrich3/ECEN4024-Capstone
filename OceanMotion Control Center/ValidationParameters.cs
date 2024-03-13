@@ -1,6 +1,6 @@
 namespace OceanMotion;
 
-public class ValidationParameters() {
+public class ValidationParameters {
     private double maxHeight;
     private double minHeight;
     private double maxVelocity;
@@ -15,19 +15,19 @@ public class ValidationParameters() {
         this.minTimeStep = minTimeStep;
     }
 
-    public int getMaxHeight() {
+    public double getMaxHeight() {
         return this.maxHeight;
     }
 
-    public int getMinHeight() {
+    public double getMinHeight() {
         return this.minHeight;
     }
 
-    public int getMaxVelocity() {
+    public double getMaxVelocity() {
         return this.maxVelocity;
     }
 
-    public int getMinTimeStep() {
+    public double getMinTimeStep() {
         return this.minTimeStep;
     }
 }
