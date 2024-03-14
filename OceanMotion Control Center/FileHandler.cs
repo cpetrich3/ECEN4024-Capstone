@@ -5,7 +5,7 @@ namespace OceanMotion;
 public class FileHandler {
     
     private StreamReader sr;
-    private StreamWriter sw;
+    //private StreamWriter sw; for writing to create
 
 
     public int ValidateFile(String path, double maxHeight, double minHeight, double maxVelocity, double minTimeStep) {
