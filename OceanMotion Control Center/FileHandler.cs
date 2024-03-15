@@ -4,7 +4,7 @@ namespace OceanMotion;
 
 public class FileHandler {
     
-    private StreamReader sr;
+    private StreamReader? sr;
     //private StreamWriter sw; for writing to create
 
 
@@ -14,8 +14,8 @@ public class FileHandler {
     }
 
     private int ReadFile(String path, ValidationParameters valParams) {
-        String line1;
-        String line2;
+        String? line1;
+        String? line2;
         int stopCode = 1;
         try {
             // REFACTOR***
@@ -23,7 +23,7 @@ public class FileHandler {
             line1 = sr.ReadLine();
             line2 = sr.ReadLine();
             double time;
-            if (!(line1.Split(',').Length == 7 || line1.Split(',').Length == 2)) { // Catches if the file isn't in the proper format. Either 7 (time + 6-dof) or 2 (time + heave) columns.
+            if (line1.Split(',').Length is not (7 or 2)) { // Catches if the file isn't in the proper format. Either 7 (time + 6-dof) or 2 (time + heave) columns.
                 // Return err# for improper data file format
                 Console.WriteLine("Improper data format");
                 return -3;
@@ -60,7 +60,7 @@ public class FileHandler {
     private int Validate(String[] line1, String[] line2, ValidationParameters valParams) {
         double period;
         double vel;
-        int fileType; // Will want to include some info on which type of file this is: 1 dof or 6 dof.
+        //int fileType; // Will want to include some info on which type of file this is: 1 dof or 6 dof.
         try {
             period = double.Parse(line2[0])-double.Parse(line1[0]);
             vel = System.Math.Abs((double.Parse(line2[1])-double.Parse(line1[1]))/period);

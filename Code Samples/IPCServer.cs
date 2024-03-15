@@ -1,11 +1,13 @@
+using System;
 using System.IO.Pipes;
+using System.Text;
+using System.IO;
 
-namespace OceanMotion;
-
-public class IPCManager {
-    
-    public void OpenPipe() {
-        string pipeName = "OceanMotion";
+class Program
+{
+    static void Main(string[] args)
+    {
+        string pipeName = "MyNamedPipe";
         
         using (NamedPipeServerStream pipeServer = new NamedPipeServerStream(pipeName, PipeDirection.InOut))
         {
@@ -28,5 +30,4 @@ public class IPCManager {
             }
         }
     }
-
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OceanMotion_Control_Center
-build_property.ProjectDir = C:\Users\jarcrum\Documents\ECEN4024-Capstone\OceanMotion Control Center\
+build_property.ProjectDir = C:\Everything\ECEN4024-Capstone\OceanMotion Control Center\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
