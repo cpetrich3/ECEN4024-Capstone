@@ -1,9 +1,11 @@
-﻿
+﻿using System.IO;
+
 namespace OceanMotion;
 
-class Program
+public static class Program
 {
     static void Main(String[] args) {
-        Console.WriteLine("Hello world");
+        FileHandler fh = new FileHandler();
+        Console.WriteLine(fh.ValidateFile(".\\testData1.txt", 10, 0, 2, 0.0001));
     }
 }
